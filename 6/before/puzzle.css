@@ -1,0 +1,104 @@
+#game {
+    position: fixed;
+    top: 30px;
+    left: 438px;
+    height: 580px;
+    width: 567px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    box-shadow: 10px 10px 30px 10px #C3C3C3;
+}
+h1 {
+    font-family: "Youyuan";
+    text-align: center;
+}
+#image {
+    border: 1px solid grey; /*fuzhuxian*/
+    position: absolute;
+    width: 424px;
+    height: 424px;
+    left: 80px;
+    top: 80px;
+    background-color: #9B9B9B;
+}
+.piece {
+    border: 1px solid grey;
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    background-image: url("http://cdn.duitang.com/uploads/item/201204/24/20120424110215_YyhB3.thumb.600_0.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 55% 50%;
+    background-size: 35% 68%;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+#one, #five, #nine, #thirteen {
+    position: absolute;
+    left: 0px;
+}
+#two, #six, #ten, #fourteen {
+    position: absolute;
+    left: 106px;
+}
+#three, #seven, #eleven, #fifteen {
+    position: absolute;
+    left: 212px;
+}
+#four, #eight, #twelve, #sixteen {
+    position: absolute;
+    left: 318px;
+}
+#one, #two, #three, #four {
+    position: absolute;
+    top: 0px;
+}
+#five, #six, #seven, #eight {
+    position: absolute;
+    top: 106px;
+}
+#nine, #ten, #eleven, #twelve {
+    position: absolute;
+    top: 212px;
+}
+#thirteen, #fourteen, #fifteen, #sixteen {
+    position: absolute;
+    top: 318px;
+}
+button {
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    color: white;
+    font-size: 18px;
+    background-color: #9B9B9B;
+    box-shadow: 5px 6px 6px 2px #C3C3C3;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline-style: none;
+    letter-spacing: 5px;
+}
+#start {
+    position: absolute;
+    top: 525px;
+    left: 138px;
+}
+#end {
+    position: absolute;
+    top: 525px;
+    left: 362px;
+}
+#timing {
+    position: absolute;
+    top: 530px;
+    left: 242px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
