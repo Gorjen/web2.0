@@ -1,0 +1,39 @@
+body {
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial;
+}
+#todo, #staff {
+	border-collapse: collapse;
+	color: white;
+}
+th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+	padding: 4px;
+	padding-right: 15px;
+}
+th {
+	background-color: rgb(17, 29, 67);
+}
+td {
+	color: black;
+}
+.alternate {
+	background-color: #9B9B9B;
+}
+.odd {
+	background-color: white;
+}
+.ascend {
+	background-image: url("image/ascend.png");
+	background-position: right;
+	background-color: #A4B0FC;
+	background-repeat: no-repeat;
+}
+.descend {
+	background-image: url("image/descend.png");
+	background-position: right;
+	background-color: #A4B0FC;
+	background-repeat: no-repeat;
+}
