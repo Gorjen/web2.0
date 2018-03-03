@@ -1,0 +1,140 @@
+/*body*/
+body {
+    position: absolute;
+    width: 565px;
+    height: 600px;
+    top: 18px;
+    left: 28%;
+    bottom: 598px;
+    border-radius: 8% 8% 8% 8%;
+    -webkit-border-radius: 8% 8% 8% 8%;
+    -moz-border-radius: 8% 8% 8% 8%;
+    box-shadow: 10px 10px 30px 10px #C3C3C3;
+    background: url("http://imgsrc.baidu.com/forum/w%3D580/sign=d09cf6134836acaf59e096f44cd88d03/a2dd7c2eb9389b5054b155788635e5dde7116e5e.jpg") no-repeat fixed bottom left;
+}
+
+/*name*/
+#name {
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 172px;
+    top: 42px;
+    right: 403px;
+    bottom: 87px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "幼圆";
+    color: #9B9B9B;
+    font-size: 43px;
+}
+
+/*core*/
+#core {
+    position: absolute;
+    width: 477px;
+    height: 455px;
+    left: 42px;
+    top: 114px;
+    right: 532px;
+    bottom: 569px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 6% 6% 6% 6%;
+    -webkit-border-radius: 6% 6% 6% 6%;
+    -moz-border-radius: 6% 6% 6% 6%;
+    border-width: 2px;
+    background-color: rgba(177, 177, 177, 0.4);
+}
+
+/*result*/
+#input, #output {
+    width: 433px;
+    height: 30px;
+    margin-left: 19px;
+    margin-right: 19px;
+    border: 2px solid #9B9B9B;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+#input {
+    margin-top: 12px;
+    border-bottom-style: none;
+    text-align: left;
+    border-radius: 30% 30% 0% 0%;
+    -webkit-border-radius: 30% 30% 0% 0%;
+    -moz-border-radius: 30% 30% 0% 0%;
+    box-shadow: inset 0px 5px 5px 0px #C3C3C3;
+}
+#output {
+    margin-top: -2px;
+    border-top-style: none;
+    text-align: right;
+    border-radius: 0% 0% 30% 30%;
+    -webkit-border-radius: 0% 0% 30% 30%;
+    -moz-border-radius: 0% 0% 30% 30%;
+}
+
+/*buttons*/
+#buttons {
+    width: 433px;
+    height: 361px;
+    margin-top: 12px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+/*button*/
+button {
+    margin-top: 0px;
+    left: 19px;
+    width: 99px;
+    height: 64px;
+    border: 2px solid #9B9B9B;
+    position: absolute;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background: url("http://img1.qqdawang.com/file/20160930/8ace49765625433794854752996908dc.jpg") no-repeat scroll center;
+    background-size: 100px 80px;
+    border-radius: 30% 30% 30% 30%;
+    -webkit-border-radius: 30% 30% 30% 30%;
+    -moz-border-radius: 30% 30% 30% 30%;
+    box-shadow: 2px 2px 4px 2px #9B9B9B;
+    text-shadow: 2px 1px 0px #9B9B9B;
+    outline: none;
+}
+
+/*first line*/
+#eight, #five, #two, #dot, #right {
+    margin-left: 114.25px;
+}
+#nine, #six, #three, #delete, #cancel {
+    margin-left: 226.25px;
+}
+#divide, #multiply, #subtract, #add, #equal {
+    margin-left: 338.25px;
+}
+
+/*second line*/
+#four, #five, #six, #multiply {
+    top: 162.25px;
+}
+
+/*third line*/
+#one, #two, #three, #subtract {
+    top: 233.25px;
+}
+
+/*fourth line*/
+#zero, #dot, #delete, #add {
+    top: 304.25px;
+}
+
+/*fifth line*/
+#left, #right, #cancel, #equal {
+    top: 374.5px;
+}
