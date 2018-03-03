@@ -1,0 +1,95 @@
+body {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    right: auto;
+    height: 623px;
+    width: 1346px;
+    color: black;
+}
+#whole {
+    width: 850px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz--webkit-border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 30px 10px #C3C3C3;
+    background-color: white;
+}
+
+/*文本部分*/
+h1, h2 {
+    font-family: "Century Gothic";
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+#input, #output, #result {
+    background-color: white;
+}
+#input, #result, #output, span {
+    font-family: "Book Antiqua";
+    font-size: 13px;
+}
+p {
+    font-family: Tahoma;
+    font-size: 15px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 150px;
+    outline: none;
+}
+#time {
+    margin-top: -22px;
+    margin-left: 450px;
+}
+#input {
+    margin-left: 500px;
+    position: absolute;
+    top: 115px;
+}
+#result {
+    margin-left: 150px;
+}
+#score {
+    margin-left: 450px;
+    margin-top: -21px;
+}
+#output {
+    position: absolute;
+    margin-left: 500px;
+    top: 150px;
+}
+h3, ol {
+    text-align: left;
+    margin-left: 90px;
+}
+h3 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    margin-top: 120px;
+}
+ol {
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+
+/*打地鼠部分*/
+#Moles {
+    height: 126px;
+    width: 220px;
+    border-top: 2px solid #C3C3C3;
+    border-bottom: 2px solid #C3C3C3;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 280px;
+    margin-top: 50px;
+}

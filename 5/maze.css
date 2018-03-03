@@ -1,0 +1,228 @@
+body {
+    position: absolute;
+    top: 2px;
+    left: 120px;
+    right: auto;
+    height: 623px;
+    width: 1346px;
+    text-align: center;
+}
+#whole {
+    width: 890px;
+    height: 610px;
+    border: 2px solid white;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz--webkit-border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 30px 10px #C3C3C3;
+    background-color: white;
+}
+
+/*提示区域*/
+#output {
+    border: 1px solid white;
+    height: 40px;
+    width: 800px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    color: red;
+}
+
+/*文本部分*/
+h1, h2, h3, h4 {
+    font-family: "Century Gothic";
+    color: black;
+}
+h2, h3, h4 {
+    font-weight: normal;
+}
+h3, h4 {
+    text-align: left;
+    padding-left: 180px;
+    font-size: 14px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+h2 {
+    padding-top: 5px;
+    font-size: 20px;
+}
+h3 {
+    width: 526px;
+    top: 150px;
+}
+h4 {
+    margin-top: 0px;
+}
+#wall {
+    margin-left: 390px;
+    border: 1px solid #9B9B9B;
+    width: 94px;
+    height: 25px;
+    background-color: #C3C3C3;
+}
+
+/*迷宫部分*/
+#maze {
+    width: 463px;
+    height: 279px;
+    margin-left: 205px;
+    cursor: pointer;
+}
+
+/*墙*/
+#six, #seven, #eight, #nine, #ten {
+    border: 1px solid #C3C3C3; /*#C3C3C3*/
+    background-color: #C3C3C3;
+}
+#six, #eight {
+    width: 129px;
+    height: 182px;
+}
+#six {
+    position: absolute;
+    top: 175px;
+    left: 209px;
+}
+#seven {
+    position: absolute;
+    width: 203px;
+    height: 31px;
+    top: 175px;
+    left: 339px;
+}
+#eight {
+    position: absolute;
+    left: 544px;
+    top: 175px;
+}
+#nine {
+    position: absolute;
+    width: 103px;
+    height: 147px;
+    left: 389px;
+    top: 259px;
+}
+#ten {
+    position: absolute;
+    width: 463px;
+    height: 47px;
+    left: 209px;
+    top: 408px;
+}
+
+/*起点终点*/
+#start, #end {
+    height: 36px;
+    width: 36px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+}
+#start:hover, #end:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz--webkit-transform: scale(1.1);
+}
+#start {
+    position: absolute;
+    left: 215px;
+    top: 365px;
+    background-color: green;
+}
+#end {
+    position: absolute;
+    top: 365px;
+    left: 630px;
+    background-color: #8282FB;
+}
+
+
+/*空白通道*/
+#one, #two, #three, #four, #five {
+    /*border: 1px solid black;*/
+    cursor: pointer;
+}
+#one, #five {
+    width: 178px;
+    height: 46px;
+}
+#two, #four {
+    width: 47px;
+    height: 150px;
+}
+#three {
+    width: 105px;
+    height: 47px;
+}
+#one {
+    position: absolute;
+    left: 208px;
+    top: 360px; /*-43*/
+}
+#two {
+    position: absolute;
+    top: 208px;
+    left: 340px;
+}
+#three {
+    position: absolute;
+    top: 209px;
+    left: 388px;
+}
+#four {
+    position: absolute;
+    top: 208px;
+    left: 495px;
+
+}
+#five {
+    position: absolute;
+    top: 360px;
+    left: 495px;
+}
+
+/*检查抄袭*/
+#check_one {
+    position: absolute;
+    /*border: 1px solid black;*/
+    width: 207px;
+    height: 641px;
+    top: 0px;
+    left: 0px;
+}
+#check_two {
+    position: absolute;
+    /*border: 1px solid black;*/
+    width: 464px;
+    height: 173px;
+    top: 0px;
+    left: 209px;
+}
+#check_three {
+    position: absolute;
+    /*border: 1px solid black;*/
+    height: 641px;
+    width: 220px;
+    top: 0px;
+    left: 675px;
+}
+#check_four {
+    position: absolute;
+    /*border: 1px solid black;*/
+    width: 464px;
+    height: 188px;
+    top: 457px;
+    left: 209px;
+}
